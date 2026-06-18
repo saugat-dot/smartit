@@ -48,7 +48,18 @@ export function SiteFooter() {
 
         <div className="mt-12 pt-6 border-t border-white/10 flex flex-col sm:flex-row justify-between gap-3 text-xs text-white/50">
           <p>© {new Date().getFullYear()} Smart IT Solution. All rights reserved.</p>
-          <p>Built with care in Biratnagar, Nepal.</p>
+
+          <p>
+            Designed & Developed with ❤️ by{" "}
+            <a
+              href="https://www.birattech.com"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="font-semibold text-blue-400 hover:text-blue-300 transition"
+            >
+              BiratTech Software Solutions
+            </a>
+          </p>
         </div>
       </div>
     </footer>
